@@ -1,5 +1,12 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-close-black" viewBox="0 0 32 32">
+<path d="M32 3.223l-3.223-3.223-12.777 12.777-12.777-12.777-3.223 3.223 12.777 12.777-12.777 12.777 3.223 3.223 12.777-12.777 12.777 12.777 3.223-3.223-12.777-12.777 12.777-12.777z"></path>
+</symbol>
+<symbol id="icon-frame" viewBox="0 0 32 32">
+<path fill="#02897a" style="fill: var(--color1, #02897a)" d="M16 29.333c7.352 0 13.333-5.981 13.333-13.333s-5.981-13.333-13.333-13.333c-7.352 0-13.333 5.981-13.333 13.333s5.981 13.333 13.333 13.333zM16 5.333c5.881 0 10.667 4.785 10.667 10.667s-4.785 10.667-10.667 10.667c-5.881 0-10.667-4.785-10.667-10.667s4.785-10.667 10.667-10.667z"></path>
+<path fill="#02897a" style="fill: var(--color1, #02897a)" d="M25.333 16c0-5.155-4.18-9.333-9.333-9.333v18.667c5.153 0 9.333-4.179 9.333-9.333z"></path>
+</symbol>
 <symbol id="icon-menu-mob" viewBox="0 0 29 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 16h21.677"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.0968" d="M3.613 8h21.677"></path>

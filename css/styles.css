@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  background: #fff;
 }
 
 ul,
@@ -37,27 +38,66 @@ img {
 }
 
 .container {
-  width: 1150px;
+  width: 411px;
   padding: 0 20px;
   margin: 0 auto;
 }
+
+/* .container {
+  width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+} */
 
 /* --------------- HEADER------------------- */
 
 .header {
   background: #fff;
-  width: 100vw;
 }
 
-.header-container {
+.header .container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin: 0 auto;
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+
 }
 
-.header-nav {
+/* .header-nav {
   display: flex;
+} */
+
+.linc-logo {
+  font-weight: 700;
+font-size: 30px;
+line-height: 0.93333;
+color: #173a56;
+  margin-right: auto;
 }
 
-.header-nav-list {
+.header-nav,
+.header-list .header-item {
+  display: none;
+}
+
+.btn-menu {
+  stroke: #173a56;
+  /* margin-right: 10px; */
+}
+.mob-menu {
+  }
+
+ .modal-icon-close {
+  fill: #02897a;
+  stroke: #173a56;
+  border-color: red;
+
+ }
+
+/* .header-nav-list {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -131,13 +171,13 @@ img {
   font-weight: 600;
   font-size: 16px;
   color: #fff;
-}
+} */
 
 /* ---------------/ HEADER------------------- */
 
 /* ---------------SECTION HERO------------------- */
 
-.hero {
+/* .hero {
   background: #fff;
   width: 100vw;
 }
@@ -210,13 +250,13 @@ img {
 }
 
 .hero-img {
-}
+} */
 
 /* ---------------/ SECTION HERO------------------- */
 
 /* ---------------SECTION FEATURE------------------- */
 
-.feature {
+/* .feature {
   background: #fff;
   width: 100vw;
   padding: 100px 0 50px 0;
@@ -292,13 +332,13 @@ img {
   width: 175px;
   height: 53px;
   margin: 50px auto 0 auto;
-}
+} */
 
 /* ---------------/ SECTION FEATURE------------------- */
 
 /* ---------------SECTION MANAGEMENT------------------- */
 
-.management {
+/* .management {
   background: #fff;
   width: 100vw;
   padding-top: 50px;
@@ -357,13 +397,13 @@ img {
 }
 
 .management-img {
-}
+} */
 
 /* ---------------/ SECTION MANAGEMENT------------------- */
 
 /* ---------------SECTION SUPPORT------------------- */
 
-.support {
+/* .support {
   background: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -445,13 +485,13 @@ img {
 .support-item-img {
   flex-shrink: 0;
   margin-right: 30px;
-}
+} */
 
 /* ---------------/ SECTION SUPPORT------------------- */
 
 /* ---------------SECTION COLLABORATIVE------------------- */
 
-.collaborative {
+/* .collaborative {
   background: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -511,13 +551,13 @@ img {
 }
 
 .collaborative-img {
-}
+} */
 
 /* ---------------/ SECTION COLLABORATIVE------------------- */
 
 /* ---------------SECTION STAFF------------------- */
 
-.staff {
+/* .staff {
   background: #fff;
   width: 100vw;
   padding-top: 150px;
@@ -590,13 +630,13 @@ img {
   font-size: 16px;
   color: #fff;
   margin: 50px auto 0 auto;
-}
+} */
 
 /* ---------------/ SECTION STAFF------------------- */
 
 /* ---------------SECTION NEWS FEED------------------- */
 
-.news-feed {
+/* .news-feed {
   background: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -659,13 +699,13 @@ img {
 
 .news-feed-subtitle-center {
   color: #02897a;
-}
+} */
 
 /* ---------------/ SECTION NEWS FEED------------------- */
 
 /* ---------------SECTION PRICING------------------- */
 
-.pricing {
+/* .pricing {
   background: #fff;
   width: 100vw;
   padding-top: 171px;
@@ -823,13 +863,13 @@ img {
 .pricing-btn-centr {
   background: #fff;
   color: #02897a;
-}
+} */
 
 /* ---------------/ SECTION PRICING------------------- */
 
 /* ---------------SECTION FEETBACK------------------- */
 
-.feetback {
+/* .feetback {
   background: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -915,13 +955,13 @@ img {
   line-height: 1.71429;
   letter-spacing: 0.01em;
   color: #252b42;
-}
+} */
 
 /* ---------------/ SECTION FEETBACK------------------- */
 
 /* ---------------SECTION PROMO------------------- */
 
-.promo {
+/* .promo {
   background: #fff;
   width: 100vw;
   padding: 100px 71px 0;
@@ -962,13 +1002,13 @@ img {
 .promo-img {
   margin-top: 4px;
   margin-bottom: 10px;
-}
+} */
 
 /* ---------------/ SECTION PROMO------------------- */
 
 /* ---------------SECTION FOOTER------------------- */
 
-.footer {
+/* .footer {
   background: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -1134,7 +1174,7 @@ img {
   line-height: 1.88;
   color: #22343d;
   margin-left: 350px;
-}
+} */
 
 /* ---------------/ SECTION FOOTER------------------- */
 
@@ -1142,7 +1182,7 @@ img {
 
 /* --------------- Great Business------------------- */
 
-.great-business {
+/* .great-business {
   background: #fff;
   width: 100vw;
   padding-top: 76px;
@@ -1250,13 +1290,13 @@ img {
 }
 
 .res-great-business-img {
-}
+} */
 
 /* ---------------/ Great Business------------------- */
 
 /* --------------- Latest Stories------------------- */
 
-.latest-stories {
+/* .latest-stories {
   background: #fff;
   width: 100vw;
   padding-top: 67px;
@@ -1338,13 +1378,13 @@ img {
 }
 
 .latest-stories-icon {
-}
+} */
 
 /* ---------------/ Latest Stories------------------- */
 
 /* --------------- Contact Us------------------- */
 
-.contact-us {
+/* .contact-us {
   background: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -1500,7 +1540,7 @@ img {
 
 .your-pfone-other {
   padding-left: 10px;
-}
+} */
 
 /* ---------------/ Contact Us------------------- */
 
@@ -1508,7 +1548,7 @@ img {
 
 /* --------------- OUR CLIENTS------------------- */
 
-.our-clients {
+/* .our-clients {
   background-color: #fff;
   width: 100vw;
   padding-top: 100px;
@@ -1541,13 +1581,13 @@ img {
 }
 
 .our-clients-icon {
-}
+} */
 
 /* ---------------/ OUR CLIENTS------------------- */
 
 /* --------------- CHOOSE PRODUCT------------------- */
 
-.choose-product {
+/* .choose-product {
   background-color: #fff;
   width: 100vw;
   padding-top: 141px;
@@ -1610,13 +1650,13 @@ img {
   text-align: center;
   color: #22343d;
   max-width: 275px;
-}
+} */
 
 /* ---------------/ CHOOSE PRODUCT------------------- */
 
 /* --------------- PRODUCT WORK------------------- */
 
-.product-work {
+/* .product-work {
   background-color: #fff;
   width: 100vw;
   padding-top: 169px;
@@ -1664,7 +1704,7 @@ img {
   line-height: 1.75;
   color: #22343d;
   max-width: 445px;
-}
+} */
 
 /* ---------------/ PRODUCT WORK------------------- */
 
@@ -1717,7 +1757,7 @@ img {
 
 /* --------------- COMPLETION------------------- */
 
-.completion {
+/* .completion {
   width: 100vw;
   background-color: #fff;
   padding-top: 100px;
@@ -1764,13 +1804,13 @@ img {
   width: 224px;
   height: 44px;
   background: #02897a;
-}
+} */
 
 /* ---------------/ COMPLETION------------------- */
 
 /* --------------- GOIN THOUSAND------------------- */
 
-.goin-thousand {
+/* .goin-thousand {
   width: 100vw;
   background-color: #fff;
   padding-top: 150px;
@@ -1888,13 +1928,13 @@ img {
   text-align: center;
   color: #22343d;
   margin-bottom: 49px;
-}
+} */
 
 /* ---------------/ Pricing ------------------- */
 
 /* --------------- Enterprise------------------- */
 
-.enterprise {
+/* .enterprise {
   width: 100vw;
   background-color: #fff;
   padding-top: 203px;
@@ -1995,12 +2035,12 @@ img {
   line-height: 1.75;
   color: #22343d;
   max-width: 530px;
-}
+} */
 
 /* ---------------/ Product Being------------------- */
 
 /* --------------- Frequently------------------- */
-
+/* 
 .frequently {
   width: 100vw;
   background-color: #fff;
@@ -2078,22 +2118,22 @@ details[open] .icon.minus {
 }
 
 .frequently-text-center {
-}
+} */
 
 /* ---------------/ Frequently------------------- */
 
 /* --------------- Promo------------------- */
 
-.promo-pricing {
+/* .promo-pricing {
   padding-top: 150px;
-}
+} */
 
 /* ---------------/ Promo------------------- */
 
 /* --------------- Footer------------------- */
 
-.footer-pricing {
+/* .footer-pricing {
   padding-top: 150px;
-}
+} */
 
 /* ---------------/ Footer------------------- */
