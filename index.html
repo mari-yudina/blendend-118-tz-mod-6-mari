@@ -68,17 +68,17 @@
             <use href="./imajes/icons.svg#icon-frame"></use>
           </svg>
         </a>
-        <button>
+        <button data-menu-open>
           <svg class="btn-menu" width="24" height="24">
             <use href="./imajes/icons.svg#icon-menu-mob"></use>
           </svg>
         </button>
       </div>
-      <div class="mob-menu">
-        <div class="mob-menu-child">
-          <button class="modal-close-btn" data-menu-close>
-            <svg class="modal-icon-close" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
+      <div class="mob-menu" data-menu>
+        <div class="container mob-menu-child">
+          <button class="mob-close-btn" data-menu-close>
+            <svg class="icon-close" width="10" height="10">
+              <use href="./imajes/icons.svg#icon-close-black"></use>
             </svg>
           </button>
           <nav class="menu-nav">
@@ -106,7 +106,6 @@
             <li class="menu-item">
               <button class="menu-btn-sign-up" type="button">Sign Up</button>
             </li>
-            <li class="menu-item"></li>
           </ul>
         </div>
       </div>
@@ -742,5 +741,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
