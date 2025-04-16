@@ -1,6 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fff;
+  background-color: #fff;
 }
 
 ul,
@@ -43,19 +43,18 @@ img {
   margin: 0 auto;
 }
 
-/* .container {
+@media screen and (min-width: 1158px) {
+ .container {
   width: 1150px;
   padding: 0 20px;
   margin: 0 auto;
-} */
-
+} 
+}
 /* --------------- HEADER------------------- */
 
 
 
-.header {
-  background: #fff;
-}
+
 
 /* ----------------- / mob menu------------------------- */
 
@@ -81,6 +80,20 @@ img {
   pointer-events: auto;
 }
 
+.mob-menu-child {
+  padding: 0 16px;
+  padding-top: 72px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+ height: 100%; 
+
+  position: relative;
+  width: 300px;
+}
+
+
+
 .mob-close-btn {
  
   position: absolute;
@@ -93,62 +106,16 @@ img {
   fill: #173a56;
 }
 
-.mob-menu-child {
-  padding: 0 16px;
-  padding-top: 72px;
-  padding-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-
-  position: relative;
-  width: 312px;
-  
-  
-}
-
-
-
-
-/* ----------------- / mob menu------------------------- */
-
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 17px;
-  padding-bottom: 17px;
+.menu-nav { 
   margin: 0 auto;
-  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+  margin-bottom: auto;
+  }
 
-}
-
-/* .header-nav {
-  display: flex;
-} */
-
-.linc-logo {
-  font-weight: 700;
-font-size: 30px;
-line-height: 0.93333;
-color: #173a56;
-  margin-right: auto;
-}
-
-.header-nav,
-.header-list .header-item {
-  display: none;
-}
-
-.btn-menu {
-  stroke: #173a56;
-  /* margin-right: 10px; */
-}
-.menu-nav-list {
+  .menu-nav-list {
 display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: auto;
+ 
 }
 
 .menu-nav-linc {
@@ -168,13 +135,98 @@ color: #22343d;
     display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 48px;
+  margin: 0 auto;
+ margin-bottom: 48px; 
+}
+
+.header-btn-sign-in {
+  border: 1px solid #bcd0e5;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+  width: 125px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+  
+}
+
+.header-btn-sign-up {
+  border-radius: 4px;
+  width: 133px;
+  height: 52px;
+  background: #02897a;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
 }
 
 
- 
 
-/* .header-nav-list {
+
+
+/* ----------------- / mob menu------------------------- */
+
+.header {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  margin: 0 auto;
+  box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+.linc-logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 700;
+font-size: 30px;
+line-height: 0.93;
+color: #173a56;
+
+  margin-right: auto;
+}
+
+.header-nav,
+.header-list .header-item {
+  display: none;
+}
+
+.btn-menu {
+  stroke: #173a56;
+  /* margin-right: 10px; */
+}
+
+@media screen and (min-width: 1158px) {
+
+  .header-container {
+    align-items: center;
+    box-shadow: none; 
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+
+.header-nav,
+.header-list .header-item {
+  display: flex;
+}
+
+
+.header-nav-list {
   display: flex;
   gap: 30px;
   align-items: center;
@@ -248,55 +300,63 @@ color: #22343d;
   font-weight: 600;
   font-size: 16px;
   color: #fff;
-} */
+}
+
+}
 
 /* ---------------/ HEADER------------------- */
 
 /* ---------------SECTION HERO------------------- */
-
-/* .hero {
-  background: #fff;
-  width: 100vw;
+.hero {
+  padding: 30px 18px 50px 18px;
 }
 
 .hero-container {
   display: flex;
+  flex-direction: column;
   padding-top: 25px;
-}
-
-.hero-container-child {
-  padding: 112px 0;
+  justify-content: space-between;
 }
 
 .hero-title {
   font-weight: 700;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #22343d;
-  margin-bottom: 18px;
+font-size: 36px;
+line-height: 1.67;
+text-align: center;
+color: #22343d;
+margin-bottom: 16px;
+ 
 }
 
 .hero-text {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.56;
-  color: #22343d;
-  margin-bottom: 45px;
-  max-width: 465px;
+font-size: 18px;
+line-height: 1.56;
+text-align: center;
+color: #22343d;
+margin-bottom: 32px;
+  max-width: 326px;
+ 
 }
 
 .hero-list {
   display: flex;
-  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  
 }
 
-.hero-item {
+.hero-btn-img {
+  width: 20px;
+  height: 18px;
+  fill: #02897a;
 }
 
 .hero-item-two {
   display: flex;
   gap: 8.66px;
-  align-items: center;
+   align-items: center; 
 }
 
 .hero-btn-get-started {
@@ -305,8 +365,9 @@ color: #22343d;
   color: #fff;
 
   border-radius: 4px;
-  width: 178px;
+  width: 142px;
   height: 53px;
+
 
   background: #02897a;
 }
@@ -320,14 +381,41 @@ color: #22343d;
   color: #02897a;
 }
 
-.hero-btn-img {
-  width: 20px;
-  height: 18px;
-  fill: #02897a;
+@media screen and (min-width: 1158px) {
+.hero-container {
+
+  flex-direction: row-reverse;
+  padding-top: 25px;
 }
 
-.hero-img {
-} */
+ .hero-title {
+
+  font-size: 40px;
+  line-height: 1.5;
+  margin-bottom: 18px;
+  text-align: left; 
+ } 
+
+ .hero-text {
+margin-bottom: 45px;
+  max-width: 465px; 
+  text-align: left;
+ }
+
+ .hero-btn-get-started {
+ width: 178px;
+  height: 53px; 
+ }
+ 
+ .hero-container-child {
+  padding: 112px 0;
+  
+}
+
+.hero-list {
+ justify-content: flex-start; 
+}
+}
 
 /* ---------------/ SECTION HERO------------------- */
 

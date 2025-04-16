@@ -68,7 +68,7 @@
             <use href="./imajes/icons.svg#icon-frame"></use>
           </svg>
         </a>
-        <button data-menu-open>
+        <button class="menu-open-btn" data-menu-open>
           <svg class="btn-menu" width="24" height="24">
             <use href="./imajes/icons.svg#icon-menu-mob"></use>
           </svg>
@@ -100,11 +100,11 @@
             </ul>
           </nav>
           <ul class="menu-list">
-            <li class="menu-item">
-              <button class="menu-btn-sign-in" type="button">Sign In</button>
+            <li class="header-item">
+              <button class="header-btn-sign-in" type="button">Sign In</button>
             </li>
-            <li class="menu-item">
-              <button class="menu-btn-sign-up" type="button">Sign Up</button>
+            <li class="header-item">
+              <button class="header-btn-sign-up" type="button">Sign Up</button>
             </li>
           </ul>
         </div>
@@ -113,6 +113,35 @@
     <main>
       <section class="hero">
         <div class="hero-container container">
+          <picture>
+            <source
+              class="hero-img"
+              media="(min-width: 1150px)"
+              srcset="
+                ./imajes/index/hero-img-min.png    1x,
+                ./imajes/index/hero-img@2x-min.png 2x
+              "
+              width="610"
+              height="555"
+            />
+            <source
+              class="hero-img"
+              media="(max-width: 1109px)"
+              srcset="
+                ./imajes/index/people-mob-min.png    1x,
+                ./imajes/index/people-mob@2x-min.png 2x
+              "
+            />
+
+            <img
+              class="hero-img"
+              src="./imajes/index/hero-img-min.png"
+              alt="people"
+              width="338"
+              height="311"
+            />
+          </picture>
+
           <div class="hero-container-child">
             <h1 class="hero-title">
               Work at the speed<br />
@@ -129,13 +158,6 @@
                 </button>
               </li>
               <li class="hero-item hero-item-two">
-                <!-- <img
-                  class="hero-btn-img"
-                  src="./imajes/index/Triangle.png"
-                  alt="Triangle"
-                  width="20"
-                  height="18"
-                /> -->
                 <svg class="hero-btn-img" width="20" height="18">
                   <use href="./imajes/icons.svg#icon-triangle"></use>
                 </svg>
@@ -145,13 +167,6 @@
               </li>
             </ul>
           </div>
-          <img
-            class="hero-img"
-            src="./imajes/index/people.png"
-            alt="people"
-            width="610"
-            height="555"
-          />
         </div>
       </section>
       <section class="feature">
